@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion2</title>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/accordion-js@3.3.2/dist/accordion.min.css"> -->
+    <link rel="stylesheet" href="libs.accordion.min.css">
+    <link rel="stylesheet" href="accordion2.css">
+</head>
+<body>
+    <div class="accordion-container">
+        <div class="ac">
+          <h2 class="ac-header">
+            <button type="button" class="ac-trigger">Button 1</button>
+          </h2>
+          <div class="ac-panel">
+            <p class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      
+        <div class="ac">
+          <h2 class="ac-header">
+            <button type="button" class="ac-trigger">Button 2</button>
+          </h2>
+          <div class="ac-panel">
+            <p class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      
+        <div class="ac">
+          <h2 class="ac-header">
+            <button type="button" class="ac-trigger">Button 3</button>
+          </h2>
+          <div class="ac-panel">
+            <p class="ac-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+
+    <h1>---------------------------------------------</h1>
+    <ul class="accordion list">
+        <li class="list__item ac">
+            <h3 class="ac-header">
+                <button class="ac-trigger">Первый вариант</button>
+            </h3>
+            <div class="ac-panel">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fugit, vero sunt neque veniam, rem quaerat odio alias assumenda, modi voluptate ratione consequatur? Quam modi, explicabo fugiat enim at numquam.</p>
+            </div>
+        </li>
+        <li class="list__item ac">
+            <h3 class="ac-header">
+                <button class="ac-trigger">Второй вариант</button>
+            </h3>
+            <div class="ac-panel">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fugit, vero sunt neque veniam, rem quaerat odio alias assumenda, modi voluptate ratione consequatur? Quam modi, explicabo fugiat enim at numquam Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam natus repellat commodi incidunt molestiae vitae similique minus qui et aspernatur odio corporis, dignissimos optio ad ratione sunt libero perspiciatis nesciunt.</p>
+            </div>
+        </li>
+    </ul>
+    <!-- <script src="https://unpkg.com/accordion-js@3.3.2/dist/accordion.min.js"></script> -->
+    <script>
+        new Accordion('.accordion-container');
+      </script>
+    <script src="libs.accordion.min.js"></script>
+    <!-- <script src="accordion2.js"></script> -->
+</body>
+</html>
